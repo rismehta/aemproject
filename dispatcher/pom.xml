@@ -7,16 +7,16 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.formscorecomponents</groupId>
-        <artifactId>aem-formscorecomponents-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.mysite</groupId>
+        <artifactId>mysite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>aem-formscorecomponents-project.dispatcher.cloud</artifactId>
+    <artifactId>mysite.dispatcher.cloud</artifactId>
     <packaging>pom</packaging>
-    <name>formscorecomponents - Dispatcher</name>
-    <description>HTTP &amp; Dispatcher configurations for formscorecomponents</description>
+    <name>My Site - Dispatcher</name>
+    <description>HTTP &amp; Dispatcher configurations for My Site</description>
 
     <build>
         <plugins>

@@ -18,15 +18,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.formscorecomponents</groupId>
-        <artifactId>aem-formscorecomponents-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.mysite</groupId>
+        <artifactId>mysite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>aem-formscorecomponents-project.it.tests</artifactId>
-    <name>formscorecomponents - Integration Tests</name>
-    <description>Integration Tests for formscorecomponents</description>
+    <artifactId>mysite.it.tests</artifactId>
+    <name>My Site - Integration Tests</name>
+    <description>Integration Tests for My Site</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

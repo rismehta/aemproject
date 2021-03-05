@@ -23,15 +23,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.formscorecomponents</groupId>
-        <artifactId>aem-formscorecomponents-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.mysite</groupId>
+        <artifactId>mysite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>aem-formscorecomponents-project.ui.tests</artifactId>
-    <name>formscorecomponents - UI Tests</name>
-    <description>UI Tests for formscorecomponents</description>
+    <artifactId>mysite.ui.tests</artifactId>
+    <name>My Site - UI Tests</name>
+    <description>UI Tests for My Site</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

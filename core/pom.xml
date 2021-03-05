@@ -18,14 +18,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.formscorecomponents</groupId>
-        <artifactId>aem-formscorecomponents-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.mysite</groupId>
+        <artifactId>mysite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>aem-formscorecomponents-project.core</artifactId>
-    <name>formscorecomponents - Core</name>
-    <description>Core bundle for formscorecomponents</description>
+    <artifactId>mysite.core</artifactId>
+    <name>My Site - Core</name>
+    <description>Core bundle for My Site</description>
     <build>
         <plugins>
             <plugin>
@@ -92,6 +92,15 @@ Import-Package: javax.annotation;version=0.0.0,*
         </dependency>
 
 
+        <!-- AEM Forms Dependencies -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-forms-sdk-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>core-forms-components-core</artifactId>
+        </dependency>
         <!-- Testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
